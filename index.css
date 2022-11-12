@@ -5,6 +5,52 @@
         Big Header font: 
             font-family: 'Lexend Deca', sans-serif; 
  */
+
+/* RESET */
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* RESET SYLE END */
+
+
 body {
     background-color: #FFF6F4;
+    padding: 0px;
+    margin: 0px;
+}
+
+.logo img {
+    width: 150px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-button {
+    border: 3px solid black;
+    border-radius: 50px;
+    width: 150px;
+    text-align: center;
+    height: 50px;
+    vertical-align: middle;
+    display: table-cell;
+
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-weight: bold;
+
+    background-color: #E3FFF8;
+}
+
+nav {
+    border-bottom: 3px solid black;
+    width: auto;
+    padding-left: 120px;
+    padding-right: 120px;
 }
